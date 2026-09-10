@@ -298,6 +298,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plastic Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 3463499368546480138, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a159f432676796c4cba4fdd02834e8df, type: 2}
+    - target: {fileID: 7144439370932764604, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a7f4b3a80cce5544186fb7a62b8fabb2, type: 2}
+    - target: {fileID: 8013282932021401729, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c18631ac74d3d2b4488c87e429c5781f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -653,7 +665,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15c0c008788f2114282199c6b876bfa8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -762,6 +774,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6627959848412273432, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: e19b5bb6cb8e91e43b1b5d81a069296f, type: 3}
+    - target: {fileID: -6293512449564156801, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f5ccd52dc494e054fbe7d7161dcabe25, type: 2}
     - target: {fileID: 919132149155446097, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
       propertyPath: m_Name
       value: IKEA Table  chaises (1)
@@ -770,6 +790,14 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5526250687380644912, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 443ee22edc924504d8422e40e35e9d17, type: 2}
+    - target: {fileID: 5741022265915115473, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 443ee22edc924504d8422e40e35e9d17, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
@@ -826,6 +854,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6627959848412273432, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: e19b5bb6cb8e91e43b1b5d81a069296f, type: 3}
     - target: {fileID: 919132149155446097, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
       propertyPath: m_Name
       value: IKEA Table  chaises
@@ -834,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5526250687380644912, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e7bd2851042d73b41813ce7aa6bdc320, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
@@ -842,6 +878,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dd016ffc3d01a247bc27206467ef8c5, type: 3}
+--- !u!1 &816886280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816886282}
+  - component: {fileID: 816886281}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &816886281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816886280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e99f230a0b077d4594c45c1b12ceeb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  objectPrefab: {fileID: 1476361508379417022, guid: 2ec6a1346eccaf943b45f89bc3f04f6f, type: 3}
+  particleBurstPrefab: {fileID: 5772420705674885336, guid: 5e4728f1078901145b2eb4599adc3c25, type: 3}
+  spawnPoint: {fileID: 816886282}
+  spawnButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Spawn Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2bf98ebe-c2d6-4bac-9025-31cbd1ce575e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: -631344258065148156, guid: e0ca4504471ca124088e1e2cfe6804ae, type: 3}
+--- !u!4 &816886282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816886280}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.19, y: 0, z: 7.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,6 +1416,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plastic Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3463499368546480138, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 76438ef8fa571a9408e67991f261dd5a, type: 2}
+    - target: {fileID: 7144439370932764604, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5099774cca9871c44b1a74846d7b5d11, type: 2}
+    - target: {fileID: 8013282932021401729, guid: e07a3453c4825114fb18b8cbf05e6dcb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 29843aa6a69d28c45a5a811eb640cf35, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1406,7 +1514,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15c0c008788f2114282199c6b876bfa8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1641,6 +1749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 666610495744377488, guid: 4d4fb880ce9741e40b3d95e722aab57b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ac752a5d4ba281d4dbc7191f77b43594, type: 2}
     - target: {fileID: 873118137468708339, guid: 4d4fb880ce9741e40b3d95e722aab57b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1707,3 +1819,4 @@ SceneRoots:
   - {fileID: 1177988256}
   - {fileID: 739491742}
   - {fileID: 667284118}
+  - {fileID: 816886282}
